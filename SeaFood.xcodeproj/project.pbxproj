@@ -15,6 +15,7 @@
 		D14EA3A124FD43250055A2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14EA39F24FD43250055A2AA /* LaunchScreen.storyboard */; };
 		D14EA3AC24FD43250055A2AA /* SeaFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EA3AB24FD43250055A2AA /* SeaFoodTests.swift */; };
 		D14EA3B724FD43250055A2AA /* SeaFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EA3B624FD43250055A2AA /* SeaFoodUITests.swift */; };
+		D14EA3C524FD43FC0055A2AA /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D14EA3C424FD43FC0055A2AA /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D14EA3B224FD43250055A2AA /* SeaFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14EA3B624FD43250055A2AA /* SeaFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaFoodUITests.swift; sourceTree = "<group>"; };
 		D14EA3B824FD43250055A2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14EA3C424FD43FC0055A2AA /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D14EA39D24FD43250055A2AA /* Assets.xcassets */,
 				D14EA39F24FD43250055A2AA /* LaunchScreen.storyboard */,
 				D14EA3A224FD43250055A2AA /* Info.plist */,
+				D14EA3C424FD43FC0055A2AA /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14EA39924FD43240055A2AA /* ViewController.swift in Sources */,
+				D14EA3C524FD43FC0055A2AA /* Inceptionv3.mlmodel in Sources */,
 				D14EA39524FD43240055A2AA /* AppDelegate.swift in Sources */,
 				D14EA39724FD43240055A2AA /* SceneDelegate.swift in Sources */,
 			);
