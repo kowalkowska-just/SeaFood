@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D14EA39524FD43240055A2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EA39424FD43240055A2AA /* AppDelegate.swift */; };
+		D14EA39724FD43240055A2AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EA39624FD43240055A2AA /* SceneDelegate.swift */; };
+		D14EA39924FD43240055A2AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EA39824FD43240055A2AA /* ViewController.swift */; };
+		D14EA39C24FD43240055A2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14EA39A24FD43240055A2AA /* Main.storyboard */; };
+		D14EA39E24FD43250055A2AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D14EA39D24FD43250055A2AA /* Assets.xcassets */; };
+		D14EA3A124FD43250055A2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D14EA39F24FD43250055A2AA /* LaunchScreen.storyboard */; };
+		D14EA3AC24FD43250055A2AA /* SeaFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EA3AB24FD43250055A2AA /* SeaFoodTests.swift */; };
+		D14EA3B724FD43250055A2AA /* SeaFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14EA3B624FD43250055A2AA /* SeaFoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D14EA3A824FD43250055A2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14EA38924FD43240055A2AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14EA39024FD43240055A2AA;
+			remoteInfo = SeaFood;
+		};
+		D14EA3B324FD43250055A2AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D14EA38924FD43240055A2AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14EA39024FD43240055A2AA;
+			remoteInfo = SeaFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D14EA39124FD43240055A2AA /* SeaFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14EA39424FD43240055A2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D14EA39624FD43240055A2AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D14EA39824FD43240055A2AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D14EA39B24FD43240055A2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D14EA39D24FD43250055A2AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D14EA3A024FD43250055A2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D14EA3A224FD43250055A2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14EA3A724FD43250055A2AA /* SeaFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14EA3AB24FD43250055A2AA /* SeaFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaFoodTests.swift; sourceTree = "<group>"; };
+		D14EA3AD24FD43250055A2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14EA3B224FD43250055A2AA /* SeaFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14EA3B624FD43250055A2AA /* SeaFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaFoodUITests.swift; sourceTree = "<group>"; };
+		D14EA3B824FD43250055A2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14EA38E24FD43240055A2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14EA3A424FD43250055A2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14EA3AF24FD43250055A2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D14EA38824FD43240055A2AA = {
+			isa = PBXGroup;
+			children = (
+				D14EA39324FD43240055A2AA /* SeaFood */,
+				D14EA3AA24FD43250055A2AA /* SeaFoodTests */,
+				D14EA3B524FD43250055A2AA /* SeaFoodUITests */,
+				D14EA39224FD43240055A2AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14EA39224FD43240055A2AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D14EA39124FD43240055A2AA /* SeaFood.app */,
+				D14EA3A724FD43250055A2AA /* SeaFoodTests.xctest */,
+				D14EA3B224FD43250055A2AA /* SeaFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14EA39324FD43240055A2AA /* SeaFood */ = {
+			isa = PBXGroup;
+			children = (
+				D14EA39424FD43240055A2AA /* AppDelegate.swift */,
+				D14EA39624FD43240055A2AA /* SceneDelegate.swift */,
+				D14EA39824FD43240055A2AA /* ViewController.swift */,
+				D14EA39A24FD43240055A2AA /* Main.storyboard */,
+				D14EA39D24FD43250055A2AA /* Assets.xcassets */,
+				D14EA39F24FD43250055A2AA /* LaunchScreen.storyboard */,
+				D14EA3A224FD43250055A2AA /* Info.plist */,
+			);
+			path = SeaFood;
+			sourceTree = "<group>";
+		};
+		D14EA3AA24FD43250055A2AA /* SeaFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				D14EA3AB24FD43250055A2AA /* SeaFoodTests.swift */,
+				D14EA3AD24FD43250055A2AA /* Info.plist */,
+			);
+			path = SeaFoodTests;
+			sourceTree = "<group>";
+		};
+		D14EA3B524FD43250055A2AA /* SeaFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D14EA3B624FD43250055A2AA /* SeaFoodUITests.swift */,
+				D14EA3B824FD43250055A2AA /* Info.plist */,
+			);
+			path = SeaFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14EA39024FD43240055A2AA /* SeaFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14EA3BB24FD43250055A2AA /* Build configuration list for PBXNativeTarget "SeaFood" */;
+			buildPhases = (
+				D14EA38D24FD43240055A2AA /* Sources */,
+				D14EA38E24FD43240055A2AA /* Frameworks */,
+				D14EA38F24FD43240055A2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaFood;
+			productName = SeaFood;
+			productReference = D14EA39124FD43240055A2AA /* SeaFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D14EA3A624FD43250055A2AA /* SeaFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14EA3BE24FD43250055A2AA /* Build configuration list for PBXNativeTarget "SeaFoodTests" */;
+			buildPhases = (
+				D14EA3A324FD43250055A2AA /* Sources */,
+				D14EA3A424FD43250055A2AA /* Frameworks */,
+				D14EA3A524FD43250055A2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14EA3A924FD43250055A2AA /* PBXTargetDependency */,
+			);
+			name = SeaFoodTests;
+			productName = SeaFoodTests;
+			productReference = D14EA3A724FD43250055A2AA /* SeaFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D14EA3B124FD43250055A2AA /* SeaFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14EA3C124FD43250055A2AA /* Build configuration list for PBXNativeTarget "SeaFoodUITests" */;
+			buildPhases = (
+				D14EA3AE24FD43250055A2AA /* Sources */,
+				D14EA3AF24FD43250055A2AA /* Frameworks */,
+				D14EA3B024FD43250055A2AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D14EA3B424FD43250055A2AA /* PBXTargetDependency */,
+			);
+			name = SeaFoodUITests;
+			productName = SeaFoodUITests;
+			productReference = D14EA3B224FD43250055A2AA /* SeaFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14EA38924FD43240055A2AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Justyna Kowalkowska";
+				TargetAttributes = {
+					D14EA39024FD43240055A2AA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D14EA3A624FD43250055A2AA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D14EA39024FD43240055A2AA;
+					};
+					D14EA3B124FD43250055A2AA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D14EA39024FD43240055A2AA;
+					};
+				};
+			};
+			buildConfigurationList = D14EA38C24FD43240055A2AA /* Build configuration list for PBXProject "SeaFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D14EA38824FD43240055A2AA;
+			productRefGroup = D14EA39224FD43240055A2AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14EA39024FD43240055A2AA /* SeaFood */,
+				D14EA3A624FD43250055A2AA /* SeaFoodTests */,
+				D14EA3B124FD43250055A2AA /* SeaFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14EA38F24FD43240055A2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14EA3A124FD43250055A2AA /* LaunchScreen.storyboard in Resources */,
+				D14EA39E24FD43250055A2AA /* Assets.xcassets in Resources */,
+				D14EA39C24FD43240055A2AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14EA3A524FD43250055A2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14EA3B024FD43250055A2AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14EA38D24FD43240055A2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14EA39924FD43240055A2AA /* ViewController.swift in Sources */,
+				D14EA39524FD43240055A2AA /* AppDelegate.swift in Sources */,
+				D14EA39724FD43240055A2AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14EA3A324FD43250055A2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14EA3AC24FD43250055A2AA /* SeaFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14EA3AE24FD43250055A2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14EA3B724FD43250055A2AA /* SeaFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D14EA3A924FD43250055A2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14EA39024FD43240055A2AA /* SeaFood */;
+			targetProxy = D14EA3A824FD43250055A2AA /* PBXContainerItemProxy */;
+		};
+		D14EA3B424FD43250055A2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D14EA39024FD43240055A2AA /* SeaFood */;
+			targetProxy = D14EA3B324FD43250055A2AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D14EA39A24FD43240055A2AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14EA39B24FD43240055A2AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D14EA39F24FD43250055A2AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14EA3A024FD43250055A2AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D14EA3B924FD43250055A2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D14EA3BA24FD43250055A2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D14EA3BC24FD43250055A2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = SeaFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.SeaFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D14EA3BD24FD43250055A2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = SeaFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.SeaFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D14EA3BF24FD43250055A2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = SeaFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.SeaFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaFood.app/SeaFood";
+			};
+			name = Debug;
+		};
+		D14EA3C024FD43250055A2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = SeaFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.SeaFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaFood.app/SeaFood";
+			};
+			name = Release;
+		};
+		D14EA3C224FD43250055A2AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = SeaFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.SeaFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeaFood;
+			};
+			name = Debug;
+		};
+		D14EA3C324FD43250055A2AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z56UVR5Q3Z;
+				INFOPLIST_FILE = SeaFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justynakowalkowska.SeaFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeaFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14EA38C24FD43240055A2AA /* Build configuration list for PBXProject "SeaFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14EA3B924FD43250055A2AA /* Debug */,
+				D14EA3BA24FD43250055A2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14EA3BB24FD43250055A2AA /* Build configuration list for PBXNativeTarget "SeaFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14EA3BC24FD43250055A2AA /* Debug */,
+				D14EA3BD24FD43250055A2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14EA3BE24FD43250055A2AA /* Build configuration list for PBXNativeTarget "SeaFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14EA3BF24FD43250055A2AA /* Debug */,
+				D14EA3C024FD43250055A2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14EA3C124FD43250055A2AA /* Build configuration list for PBXNativeTarget "SeaFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14EA3C224FD43250055A2AA /* Debug */,
+				D14EA3C324FD43250055A2AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D14EA38924FD43240055A2AA /* Project object */;
+}
